@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Preview
+
+You can view the live preview of the project by clicking the link below:
+
+[Preview](https://vamsi-portfolio-q69omtq09-vamsimarams-projects.vercel.app/#top)
 
 ## Getting Started
 
