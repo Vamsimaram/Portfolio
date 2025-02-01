@@ -28,7 +28,7 @@ const Header = (isDarkMode) => {
         whileInView={{y:0, opacity:1}}
         transition={{duration:0.8, delay:0.5}}
         className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-        full-stack web developer based in Washington.
+        full-stack web developer based in Washington
         </motion.h1>
 
         <motion.p 
@@ -38,7 +38,7 @@ const Header = (isDarkMode) => {
         className='max-w-2xl mx-auto font-Ovo'>
           I am a full-stack web developer based in Washington, USA. With a 
            passion for building dynamic and responsive websites, I specialize 
-           in creating seamless user experiences. I thrive in fast-paced environments, '
+           in creating seamless user experiences. I thrive in fast-paced environments
            and I am always eager to learn new technologies to improve my skills.
 
             {/* I am a frontend developer currently based in Washington, USA. 
