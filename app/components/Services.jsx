@@ -16,13 +16,13 @@ const Services = (isDarkMode) => {
       whileInView={{opacity:1,y:0}}
       transition={{duration:0.5, delay:0.3}}
       className='text-center mb-2 text-lg font-Ovo'>
-      What I offer</motion.h4>
+      Capabilities</motion.h4>
       <motion.h2 
       initial={{opacity:0, y:-20}}
       whileInView={{opacity:1,y:0}}
       transition={{duration:0.5, delay:0.5}}
       className='text-center text-5xl font-Ovo'>
-      My services</motion.h2> 
+      My Expertise</motion.h2> 
       <motion.p 
       initial={{opacity:0}}
       whileInView={{opacity:1}}
