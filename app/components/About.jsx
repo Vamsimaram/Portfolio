@@ -47,10 +47,10 @@ const About = ({isDarkMode}) => {
         transition={{duration:0.6, delay:0.8}}
          className='flex-1 justify-center'>
            <p className='mb-10 max-w-2xl font-Ovo justify-center '>
-           I am a frontend developer currently based in Washington, USA. 
-            With a Master's in Computer Science from George Mason University, 
-            I specialize in web development, data science, and software development. 
-            I'm passionate about using my technical skills to create intuitive and impactful web applications.
+           I hold a Master's degree in Computer Science from George Mason University 
+           and specialize in web development, data science, and software development. 
+           I am deeply passionate about leveraging my technical skills to create 
+           intuitive and impactful web applications.
 
            {/* I am a frontend web developer based in Washington, USA. With a 
            passion for building dynamic and responsive websites, I specialize 
