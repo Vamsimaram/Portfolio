@@ -4,6 +4,10 @@ import Image from 'next/image'
 import React from 'react'
 
 const About = ({isDarkMode}) => {
+  // Split tools into exactly two rows
+  const firstRowTools = toolsData.slice(0, Math.ceil(toolsData.length / 2));
+  const secondRowTools = toolsData.slice(Math.ceil(toolsData.length / 2));
+
   return (
     <motion.div 
     initial={{opacity:0}}
@@ -16,7 +20,7 @@ const About = ({isDarkMode}) => {
       whileInView={{opacity:1, y:0}}
       transition={{duration:0.5, delay:0.3}}
       className='text-center mb-2 text-lg font-Ovo'>
-      Introduction
+      {/* Introduction */}
       </motion.h4>
 
       <motion.h2 
@@ -47,15 +51,13 @@ const About = ({isDarkMode}) => {
         transition={{duration:0.6, delay:0.8}}
          className='flex-1 justify-center'>
            <p className='mb-10 max-w-2xl font-Ovo justify-center '>
-           I hold a Master's degree in Computer Science from George Mason University 
-           and specialize in web development, data science, and software development. 
-           I am deeply passionate about leveraging my technical skills to create 
-           intuitive and impactful web applications.
-
-           {/* I am a frontend web developer based in Washington, USA. With a 
-           passion for building dynamic and responsive websites, I specialize 
-           in creating seamless user experiences. I thrive in fast-paced environments, '
-           and I am always eager to learn new technologies to improve my skills. */}
+           A Full Stack Developer with a rich academic background from George Mason University, 
+           I specialize in bringing web and mobile applications to life. My toolkit is stocked 
+           with advanced technologies such as React, React Native, Node.js, and more, ensuring 
+           high performance and captivating user experiences. My journey is marked by a commitment 
+           to excellence, leadership in team settings, and a continuous pursuit of groundbreaking 
+           projects. Join me in forging digital pathways that resonate with creativity, precision, 
+           and endless possibilities. Let's transform ideas into reality, together.
            </p> 
 
            <motion.ul 
@@ -83,26 +85,44 @@ const About = ({isDarkMode}) => {
            initial={{opacity:0, y:20}}
            whileInView={{opacity:1, y:0}}
            transition={{duration:0.5, delay:1.3}}
-            className='my-6 justify-center text-gray-700 font-Ovo dark:text-white/80'>Tools
+            className='my-6 justify-center text-gray-700 font-Ovo dark:text-white/80'>Skills
             </motion.h4>
 
-           <motion.ul 
+           <motion.div 
            initial={{opacity:0}}
            whileInView={{opacity:1}}
            transition={{duration:0.6, delay:1.5}}  
-           className='flex justify-center items-center gap-3 sm:gap-5'>
-             {toolsData.map((tool,index)=>(
-                <motion.li 
-                whileInView={{scale:1.05}}
-                className='flex items-center justify-center
-                w-12 sm:w-14 aspect-square border border-gray-400
-                rounded-lg cursor-pointer hover:-translate-y-1
-                duration-500' 
-                key={index}>
-                    <Image src={tool} alt='' className='w-5 sm:w-7'/>
-                </motion.li>
-             ))}
-           </motion.ul>
+           className='flex flex-col items-center justify-center gap-4'>
+             {/* First row of tools */}
+             <div className='flex justify-center items-center gap-3 sm:gap-5'>
+               {firstRowTools.map((tool, index) => (
+                 <motion.div 
+                 whileInView={{scale:1.05}}
+                 className='flex items-center justify-center
+                 w-12 sm:w-14 aspect-square border border-gray-400
+                 rounded-lg cursor-pointer hover:-translate-y-1
+                 duration-500' 
+                 key={index}>
+                   <Image src={tool} alt='' className='w-5 sm:w-7'/>
+                 </motion.div>
+               ))}
+             </div>
+             
+             {/* Second row of tools */}
+             <div className='flex justify-center items-center gap-3 sm:gap-5'>
+               {secondRowTools.map((tool, index) => (
+                 <motion.div 
+                 whileInView={{scale:1.05}}
+                 className='flex items-center justify-center
+                 w-12 sm:w-14 aspect-square border border-gray-400
+                 rounded-lg cursor-pointer hover:-translate-y-1
+                 duration-500' 
+                 key={index}>
+                   <Image src={tool} alt='' className='w-5 sm:w-7'/>
+                 </motion.div>
+               ))}
+             </div>
+           </motion.div>
         </motion.div>
       </motion.div>
     </motion.div>

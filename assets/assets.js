@@ -38,6 +38,20 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import aws from './aws.png';
 import mysql from './mysql.png';
 
+// Import the new tool images
+import react_img from './react-img.png';
+import js_img from './js-img.png';
+import ts_img from './ts-img.png';
+import python_img from './python-img.png';
+import nextjs_img from './nextjs-img.png';
+import tailwind_img from './tailwind-img.png';
+import html_img from './html-img.png';
+import css_img from './css-img.png';
+import nodejs_img from './nodejs-img.png';
+import express_img from './express-img.png';
+import npm_img from './npm-img.png';
+import postman_img from './postman-img.png';
+
 export const assets = {
     user_image,
     code_icon,
@@ -77,41 +91,69 @@ export const assets = {
     right_arrow_bold,
     right_arrow_bold_dark,
     aws,
-    mysql
+    mysql,
+    // Add the new tool images to assets
+    react_img,
+    js_img,
+    ts_img,
+    python_img,
+    nextjs_img,
+    tailwind_img,
+    html_img,
+    css_img,
+    nodejs_img,
+    express_img,
+    npm_img,
+    postman_img
 };
 
 export const workData = [
     {
-        title: 'StayFinder project',
-        description: 'Web Design',
+        title: 'Tooney Tunes',
+        description: '',
         bgImage: '/work-1.png',
         link:'https://github.com/Vamsimaram/StayFinder-Platform',
     },
     {
-        title: 'Weather Info project',
-        description: 'Web Design',
+        title: ' Social BERTerfly',
+        description: '',
         bgImage: '/work-2.png',
-        link:'https://github.com/Vamsimaram/Weather-Info-Application',
+        link:'',
     },
     {
-        title: 'Sports Team Analysis',
-        description: 'EDA',
+        title: 'Transcribe',
+        description: '',
         bgImage: '/work-3.png',
-        link:'https://github.com/Vamsimaram/Sports-Team-Analysis',
+        link:'',
     },
     {
-        title: 'Password Generator',
-        description: 'UI/UX Design',
+        title: 'StayFinder Platform',
+        description: '',
         bgImage: '/work-4.png',
-        link:'https://github.com/Vamsimaram/javascript-projects/tree/main/Password%20Generator',
+        link:'https://github.com/Vamsimaram/StayFinder-Platform',
     },
 ]
 
+
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: 'https://www.geeksforgeeks.org/web-development/' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: 'https://aws.amazon.com/mobile/mobile-application-development/' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: 'https://flatironschool.com/blog/what-is-ux-ui-design/' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: 'https://webflow.com/blog/what-is-graphic-design#:~:text=Graphic%20design%20is%20the%20art%20of%20composing%20visual%20elements%20%E2%80%94%20such,all%20examples%20of%20graphic%20design.' },
+    {
+        logo: assets.mobile_icon,  // Replace with actual company logo
+        company: 'Innovation Research Center (UCEK)',
+        location: 'Andhra Pradesh, India',
+        period: 'Jul 2022 - Apr 2023',
+        title: 'Machine Learning Research Assistant',
+        description: '• Led the development of machine learning algorithms for traffic pattern analysis, resulting in improved prediction accuracy for congestion management systems.\n\n• Collaborated with a team of researchers to integrate IoT sensors and data collection mechanisms, enhancing the real-time capabilities of traffic monitoring solutions.\n\n• Contributed to the design and implementation of simulation frameworks that accurately modeled urban traffic scenarios, allowing for comprehensive testing of optimization strategies.\n\n• Presented research findings at departmental seminars and contributed to technical documentation for knowledge sharing across research groups.',
+        link: '#'
+    },
+    { 
+        logo: assets.web_icon,  // Replace with actual company logo
+        company: 'Future Ready Talent (Microsoft)',
+        location: 'Andhra Pradesh, India',
+        period: 'Jun 2022 - Aug 2022',
+        title: 'Trainee Software Engineer',
+        description: '• Orchestrated the deployment of a static web application on Microsoft Azure, reducing deployment time by implementing efficient CI/CD pipelines and automating the build process.\n\n• Utilized Azure cloud services for resource optimization, improving project scalability and efficiency through strategic use of Azure App Service, Blob Storage, and Azure Functions.\n\n• Implemented responsive front-end interfaces using React.js and Material UI, ensuring cross-browser compatibility and optimal user experience across desktop and mobile platforms.\n\n• Collaborated with cross-functional teams to integrate RESTful APIs, optimize database queries, and implement security best practices, resulting in a robust and secure web application.', 
+        link: '#' 
+    }
 ]
 
 export const infoList = [
@@ -121,5 +163,22 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.aws, assets.mongodb, assets.mysql, assets.git, assets.vscode, assets.firebase
+    assets.react_img,
+    assets.nextjs_img,
+    assets.js_img,
+    assets.ts_img,
+    assets.python_img,
+    assets.tailwind_img,
+    assets.html_img,
+    assets.css_img,
+    assets.nodejs_img,
+    assets.express_img,
+    assets.aws, 
+    assets.mongodb, 
+    assets.mysql, 
+    assets.git, 
+    assets.vscode, 
+    assets.firebase,
+    assets.npm_img,
+    assets.postman_img
 ];
