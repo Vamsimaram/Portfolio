@@ -37,11 +37,10 @@ const Header = ({isDarkMode}) => {
         whileInView={{opacity:1}}
         transition={{duration:0.6, delay:0.7}}
         className='max-w-2xl mx-auto font-Ovo'>
-        Full-stack developer transforming ideas into elegant, user-centered solutions. 
-        Based in Washington, I blend technical expertise with creative vision to build 
-        responsive web applications that make an impact. From intuitive front-end interfaces 
-        to robust back-end architecture, I'm passionate about creating technology that connects, 
-        inspires, and delivers exceptional experiences.
+        Innovative full-stack engineer translating vision into intuitive digital 
+        experiences from concept to launch. From my Washington base, I combine technical 
+        prowess with creative problem-solving to craft applications that connect 
+        people and inspire possibilities.
       </motion.p>
       
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-6'>
