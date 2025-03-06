@@ -33,8 +33,7 @@ const Services = ({ isDarkMode }) => {
       whileInView={{opacity:1}}
       transition={{duration:0.5, delay:0.7}}
       className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-        I'm expertise in full-stack development, mobile development, 
-      and more, tailored to meet project needs.      
+             Technical journey through AI research and cloud-based application development.
       </motion.p>
 
       

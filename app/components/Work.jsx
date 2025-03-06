@@ -34,7 +34,7 @@ const Work = ({isDarkMode}) => {
       whileInView={{opacity:1}}
       transition={{duration:0.5,delay:0.7}}
       className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-        Welcome to my portfolio, explore collection of 
+        Explore collection of 
         projects showcasing my expertise in development.
       </motion.p>
 
