@@ -2,7 +2,7 @@
 
 You can view the live preview of the project by clicking the link below:
 
-[Preview](https://vamsi-portfolio-q69omtq09-vamsimarams-projects.vercel.app/#top)
+[Link](https://vamsi-portfolio-eight.vercel.app/#top)
 
 ## Getting Started
 
