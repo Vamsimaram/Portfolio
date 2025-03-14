@@ -112,19 +112,19 @@ export const workData = [
         title: 'Tooney Tunes',
         description: '',
         bgImage: '/work-1.png',
-        link:'https://github.com/Vamsimaram/StayFinder-Platform',
+        link:'https://github.com/Vamsimaram/tooney-tunes',
     },
     {
         title: ' Social BERTerfly',
         description: '',
         bgImage: '/work-2.png',
-        link:'',
+        link:'https://github.com/Vamsimaram/social-BERTerfly',
     },
     {
-        title: 'Transcribe',
+        title: 'Doodle Dock',
         description: '',
         bgImage: '/work-3.png',
-        link:'',
+        link:'https://github.com/Vamsimaram/doodle-dock',
     },
     {
         title: 'StayFinder Platform',
