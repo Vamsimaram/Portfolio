@@ -51,14 +51,17 @@ const About = ({isDarkMode}) => {
         transition={{duration:0.6, delay:0.8}}
          className='flex-1 justify-center'>
            <p className='mb-10 max-w-2xl font-Ovo justify-center '>
-           A Computer Science graduate student at George Mason University with hands-on experience 
-           at Microsoft and expertise in full-stack development. I specialize in building scalable 
-           web applications, developing machine learning solutions, and optimizing cloud-based systems. 
-           From migrating backend architectures to creating interactive UAV sensor detection tools, 
-           I deliver high-performance solutions that solve real-world problems. Currently seeking 
-           opportunities to leverage my technical skills in Python, React, AWS, and data science 
-           to drive innovation in software development.
-           </p> 
+           
+            Computer Science graduate student at George Mason University with proven experience in
+            software engineering and expertise in full-stack development. I specialize in designing
+            scalable web applications, building intelligent machine learning solutions, and optimizing
+            cloud-based systems for performance and reliability. From architecting backend
+            infrastructure to developing interactive UAV sensor placement and detection tools, I deliver
+            impactful, high-performance solutions to real-world challenges. I am seeking opportunities
+            to leverage my skills in Python, React, AWS, and data science to drive innovation and create
+            next-generation software systems.
+          </p>
+
 
            <motion.ul 
            initial={{opacity:0}}

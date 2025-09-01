@@ -7,7 +7,15 @@ const Header = ({isDarkMode}) => {
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
   const [displayText, setDisplayText] = useState('');
   const [isTyping, setIsTyping] = useState(true);
-  const texts = ["software developer", "web developer"];
+  const texts = [
+  
+  "Full-Stack Developer",
+  "Software Engineer",
+  "Backend Developer",
+  "Data Science Enthusiast",
+  "Cloud & DevOps Enthusiast"
+];
+
 
   useEffect(() => {
     const currentWord = texts[currentTextIndex];
@@ -134,7 +142,7 @@ const Header = ({isDarkMode}) => {
             initial={{y:30, opacity:0}}
             whileInView={{y:0, opacity:1}}
             transition={{duration:0.6, delay:1.1}}
-            href="/Vamsi_Resume.pdf" download
+            href="/VAMSI_RESUME.pdf" download
             className='px-8 py-3 border rounded-full border-gray-500 
             flex items-center gap-2 bg-white hover:bg-gray-200
             dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-white

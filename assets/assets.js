@@ -37,6 +37,8 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import aws from './aws.png';
 import mysql from './mysql.png';
+import cupcake_img from './cupcake_icon.png';
+import deloitte_icon from './deloitte.png';
 
 // Import the new tool images
 import react_img from './react-img.png';
@@ -106,7 +108,9 @@ export const assets = {
     express_img,
     npm_img,
     postman_img,
-    gmu_icon
+    gmu_icon,
+    cupcake_img,
+    deloitte_icon
 };
 
 export const workData = [
@@ -122,12 +126,7 @@ export const workData = [
         bgImage: '/work-2.png',
         link:'https://github.com/Vamsimaram/social-BERTerfly',
     },
-    {
-        title: 'Doodle Dock',
-        description: '',
-        bgImage: '/work-3.png',
-        link:'https://github.com/Vamsimaram/doodle-dock',
-    },
+    
     {
         title: 'StayFinder Platform',
         description: '',
@@ -138,26 +137,66 @@ export const workData = [
 
 
 export const serviceData = [
-    {
-        logo: assets.gmu_icon,  // Software Developer role
-        company: 'George Mason University',
-        location: 'Virginia, USA',
-        period: 'Jan 2025 - Present',
-        title: 'Software Developer',
-        description: '• Built Python UAV sensor detection tool with Streamlit and Folium, processing 1,000+ grid cells across 100+ square kilometers for advanced geospatial analysis.\n\n• Implemented probabilistic algorithms using NumPy and SciPy for 300+ sensor configurations with 93% precision, optimizing detection accuracy and system reliability.\n\n• Developed interactive visualization dashboards supporting 10+ sensor types with real-time probability analysis capabilities, enhancing operational decision-making processes.\n\n• Optimized complex geospatial data workflows handling 20+ parameters including altitude, range, and operational speed for comprehensive sensor coverage analysis.\n\n• Created modular software architecture with 6 reusable components for scalable and efficient sensor integrations, improving system maintainability and extensibility.',
-        link: '#'
-    },
-    
-    {
-        logo: assets.web_icon,  // Microsoft Software Engineer Intern
-        company: 'Microsoft',
-        location: 'India',
-        period: 'Jun 2022 - Aug 2022',
-        title: 'Software Engineer Intern',
-        description: '• Migrated REST-based Azure Client-Offerings backend to GraphQL API technology, significantly enhancing user experience and overall system performance.\n\n• Replaced inefficient HTTP query string operations with optimized object-oriented software patterns across the entire architecture, improving code maintainability.\n\n• Solved complex unit-testing challenges for GraphQL non-overridable objects using innovative testing methodologies and modern frameworks.\n\n• Increased overall code coverage by 67% through comprehensive test suite development and implementation, ensuring robust software quality.\n\n• Improved API response times and data fetching efficiency by leveraging GraphQL\'s selective querying capabilities and enhanced backend scalability.',
-        link: '#'
-    },
-    
+  {
+    logo: assets.gmu_icon, // Software Engineer - Sodexo
+    company: 'Sodexo',
+    location: 'Fairfax, VA',
+    period: 'Jan 2025 – Present',
+    title: 'Software Engineer',
+    description: 
+      '• Built a Python-based UAV sensor placement app with Streamlit, used by researchers to simulate and visualize 500+ optimized layouts.\n\n' +
+      '• Implemented geospatial features (distance checks, protected areas, restricted zones), cutting invalid placements by 35%.\n\n' +
+      '• Developed workflows to run detection probability models and generate 200+ scenario outputs as JSON/ZIP files for analysis.\n\n' +
+      '• Integrated Pyomo and DGAL libraries to run prediction and optimization models, improving placement accuracy and coverage by 20%.\n\n' +
+      '• Delivered automated reporting and scenario comparison dashboards, speeding decision-making on deployment strategies by 40%.\n\n' +
+      '• Optimized grid computations and Python logic, reducing simulation runtime by 30% across 300+ real-world datasets.',
+    link: '#'
+  },
+
+  {
+    logo: assets.cupcake_img, // Freelance Software Developer
+    company: 'irresistible-cupcakes.com',
+    location: 'Remote',
+    period: 'Aug 2024 – Dec 2024',
+    title: 'Freelance Software Developer',
+    description:
+      '• Architected a React.js frontend with dynamic components and a Node.js/Express backend, handling product display, contact forms, and orders for 300+ daily interactions.\n\n' +
+      '• Deployed the website on AWS EC2, leveraging S3 for static assets and ensuring a scalable, responsive architecture for high traffic.\n\n' +
+      '• Secured the platform with SSL/TLS encryption, configured domain and DNS management, and implemented Git-based version control for maintainable code.',
+    link: '#'
+  },
+
+  {
+    logo: assets.deloitte_icon, // Deloitte
+    company: 'Deloitte',
+    location: 'Hyderabad, India',
+    period: 'May 2023 – Jun 2024',
+    title: 'Software Engineer',
+    description:
+      '• Built backend services for a finance platform processing 10K+ daily transactions, reducing budget approval time by 25%.\n\n' +
+      '• Improved Spring Boot + PostgreSQL APIs with indexing and query tuning, cutting average response times by 30%.\n\n' +
+      '• Automated invoice PDF generation with reusable templates and access control, lowering monthly finance workload by 20%.\n\n' +
+      '• Co-developed dashboards with caching, pagination, and visualization features, reducing backend server load by 29%.\n\n' +
+      '• Delivered features in Agile sprints with CI/CD pipelines and consistent unit test coverage across multiple modules.\n\n' +
+      '• Implemented role-based access control and JWT authentication across finance services, strengthening data security.\n\n' +
+      '• Designed and executed database schema migrations for PostgreSQL and MongoDB, ensuring smooth transitions with zero downtime.',
+    link: '#'
+  },
+
+  {
+    logo: assets.mobile_icon, // Research Assistant
+    company: 'University College of Engineering',
+    location: 'Kakinada, India',
+    period: 'Jul 2022 – Apr 2023',
+    title: 'Research Assistant',
+    description:
+      '• Built a deep RL model in TensorFlow/Keras for 4-way traffic signals, reducing wait time by 14% and stopped vehicles by 20%.\n\n' +
+      '• Implemented Deep Q-Learning with reward functions to improve adaptive traffic control over fixed-timing systems.\n\n' +
+      '• Designed detailed SUMO simulations with TraCI API and NETEDIT, modeling realistic urban traffic using Weibull distribution.\n\n' +
+      '• Tuned critical hyperparameters and optimized training workflows, accelerating convergence and improving model stability.\n\n' +
+      '• Visualized key performance improvements in delay, queue length, and rewards using Matplotlib and Pandas dashboards.',
+    link: '#'
+  }
 ];
 
 export const infoList = [
